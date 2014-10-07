@@ -1471,7 +1471,6 @@ containing a value of this type.
         public static final int action_menu_divider=0x7f080028;
         public static final int action_menu_presenter=0x7f080029;
         public static final int action_mode_close_button=0x7f080036;
-        public static final int action_settings=0x7f08004f;
         public static final int activity_chooser_view_content=0x7f080037;
         public static final int always=0x7f08001e;
         public static final int beginning=0x7f080023;
@@ -1502,12 +1501,15 @@ containing a value of this type.
         public static final int listMode=0x7f080014;
         public static final int list_item=0x7f08003b;
         public static final int map=0x7f08004e;
+        public static final int maptype=0x7f08004f;
         public static final int match_parent=0x7f08000c;
         public static final int middle=0x7f080024;
         public static final int monochrome=0x7f080013;
         public static final int never=0x7f08001c;
         public static final int none=0x7f080000;
         public static final int normal=0x7f080001;
+        public static final int polygon=0x7f080050;
+        public static final int polyline=0x7f080051;
         public static final int production=0x7f080007;
         public static final int progress_circular=0x7f08002a;
         public static final int progress_horizontal=0x7f08002b;
@@ -1538,6 +1540,7 @@ containing a value of this type.
         public static final int top_action_bar=0x7f080032;
         public static final int up=0x7f080033;
         public static final int useLogo=0x7f080016;
+        public static final int view=0x7f080052;
         public static final int withText=0x7f08001f;
         public static final int wrap_content=0x7f08000d;
     }
@@ -1639,7 +1642,6 @@ containing a value of this type.
         /**  Description of a share target (both in the list of such or the default share button) in a ShareActionProvider (share UI). [CHAR LIMIT=NONE] 
          */
         public static final int abc_shareactionprovider_share_with_application=0x7f06002b;
-        public static final int action_settings=0x7f06002f;
         public static final int app_name=0x7f06002d;
         public static final int auth_client_needs_enabling_title=0x7f060001;
         public static final int auth_client_needs_installation_title=0x7f060002;
@@ -1737,6 +1739,10 @@ containing a value of this type.
          */
         public static final int common_signin_button_text_long=0x7f06001e;
         public static final int hello_world=0x7f06002e;
+        public static final int maptype=0x7f06002f;
+        public static final int polygon=0x7f060031;
+        public static final int polyline=0x7f060030;
+        public static final int view=0x7f060032;
         /**  Text on a placeholder buy button when Google Play services is not
          available or up-to-date 
          */

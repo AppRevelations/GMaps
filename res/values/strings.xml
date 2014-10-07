@@ -3,6 +3,8 @@
 
     <string name="app_name">GMaps</string>
     <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
-
+    <string name="maptype">Map Type</string>
+    <string name="polyline">Draw PolyLine</string>
+    <string name="polygon">Draw PolyGone</string>
+     <string name="view">Change view</string>
 </resources>
