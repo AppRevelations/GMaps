@@ -1502,6 +1502,7 @@ containing a value of this type.
         public static final int list_item=0x7f08003b;
         public static final int map=0x7f08004e;
         public static final int maptype=0x7f08004f;
+        public static final int marker=0x7f080053;
         public static final int match_parent=0x7f08000c;
         public static final int middle=0x7f080024;
         public static final int monochrome=0x7f080013;
@@ -1740,6 +1741,7 @@ containing a value of this type.
         public static final int common_signin_button_text_long=0x7f06001e;
         public static final int hello_world=0x7f06002e;
         public static final int maptype=0x7f06002f;
+        public static final int marker=0x7f060033;
         public static final int polygon=0x7f060031;
         public static final int polyline=0x7f060030;
         public static final int view=0x7f060032;

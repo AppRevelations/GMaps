@@ -25,6 +25,10 @@
         android:orderInCategory="4"
         android:title="@string/view"
         app:showAsAction="never"/>
-    
+     <item
+        android:id="@+id/marker"
+        android:orderInCategory="5"
+        android:title="@string/marker"
+        app:showAsAction="never"/>
     
 </menu>
