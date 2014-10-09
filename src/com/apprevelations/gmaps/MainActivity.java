@@ -171,7 +171,7 @@ public class MainActivity extends ActionBarActivity {
 	                        .snippet("Here it is").title("My Marker").draggable(true);
 	                        
 	                mGoogleMap.addMarker(marker);
-
+                    
 	            System.out.println(point.latitude+"---"+ point.longitude);  
 	            }
 	        });
