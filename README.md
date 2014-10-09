@@ -9,8 +9,8 @@ MainActivity.java
 
  recognizes fragment in activity_main.xml.
 
- mGoogleMap = ((SupportMapFragment) getSupportFragmentManager().
-				      findFragmentById(R.id.map)).getMap();
+         mGoogleMap = ((SupportMapFragment) getSupportFragmentManager().
+                                            findFragmentById(R.id.map)).getMap();
 				      
 
 Remember you have to generate an Api-key on Google Api Console for your project to use Google Map service.And add it
@@ -63,24 +63,25 @@ Draw a Polygon on Map,change color of polygon and many more things.
     zoom():-     Sets the zoom
     bearing():-	 Sets the orientation of the camera to east
     tilt():-	 Sets the tilt of the camera to 90 degrees
-   
-   // Creates a CameraPosition from the builder
-   
-      mGoogleMap.animateCamera(CameraUpdateFactory.newCameraPosition(cameraPosition));
+    // Creates a CameraPosition from the builder
+    mGoogleMap.animateCamera(CameraUpdateFactory.newCameraPosition(cameraPosition));
     			
     			
 Add a marker ,move that marker by touch (dragging).
 
-MarkerOptions marker = new MarkerOptions().position(
-	                        new LatLng(point.latitude, point.longitude))
-	                        .snippet("Here it is").title("My Marker").draggable(true);
+      MarkerOptions marker = new MarkerOptions()
+                                    .position(new LatLng(point.latitude, point.longitude))
+                                    .snippet("Here it is")
+                                    .title("My Marker")
+                                    .draggable(true);
+                                    
+       mGoogleMap.addMarker(marker);
 	   
-mGoogleMap.addMarker(marker);
 	   
-	   
-	Title and Snippet is for info window which appears when you click on window 
+	 Title and Snippet is for info window which appears when you click on window 
 	 or you can add this line in your code to see it.
+	 
 	 mGoogleMap.addMarker(marker).showInfoWindow();
 	                        
- draggable(true) : you can place your marker where you want on map by dragging it.
+         draggable(true) : you can place your marker where you want on map by dragging it.
 
